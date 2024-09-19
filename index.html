@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneWave</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><img src="image/image.png" alt="Logo Image"><span class="logoname">TuneWave</span></li>
+                <div class="navlink">
+                    <a href="/">
+                        <li>HOME</li>
+                    </a>
+                    <a href="./playlist.html">
+                        <li>PLAYLIST</li>
+                    </a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container" >
+            <h1>ALL SONG LIBRARY</h1>
+
+
+
+
+            <!-- <div class="song">
+                    <div class="songandname">
+                        <img src="image/image1.jpg" alt="Song Image">
+                        <span class="songname">Ram Siya Ram (Song Of Lord Ram)</span>
+                    </div>
+                    <div class="timeandicon">
+                        <span class="songtime">4:25</span>
+                        <span class="play"><i id="2" class="songplay pausedplay fa-regular fa-circle-play"></i></span>
+                    </div>
+                </div> -->
+
+            <div class="webleft" id="mainContainer"></div>
+        </div>
+        <div class="bottom">
+            <div class="progress">
+                <input type="range" class="range" id="Range" min="0" value="0" max="100">
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-backward" id="previous"></i>
+                <i class="fa-solid fa-play" id="masterPlay"></i>
+                <i class="fa-solid fa-forward" id="next"></i>
+            </div>
+            <div class="songstart">
+                <img src="image/song.gif" alt="song playing" id="songimage">
+                <span id="songplayname"></span>
+            </div>
+
+        </div>
+    </main>
+    <script src="script.js" type="text/javascript"></script>
+    <!-- <script src="https://example.com/fontawesome/v6.4.2/js/all.js" data-auto-replace-svg="nest"></script> -->
+</body>
+
+</html>

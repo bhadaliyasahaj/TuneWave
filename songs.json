@@ -1,0 +1,39 @@
+{ "songs" : [
+    {
+      "songName": "Ram Siya Ram",
+      "filePath": "song1.mp3",
+      "coverPath": "image.jpg",
+      "duration": "4:25"
+    },
+    {
+      "songName": "Chandni",
+      "filePath": "song2.mp3",
+      "coverPath": "image.jpg",
+      "duration": "4:08"
+    },
+    {
+      "songName": "Heeriye",
+      "filePath": "song3.mp3",
+      "coverPath": "image.jpg",
+      "duration": "3:19"
+    },
+    {
+      "songName": "Chaleya",
+      "filePath": "song4.mp3",
+      "coverPath": "image.jpg",
+      "duration": "3:08"
+    },
+    {
+      "songName": "Kalaastar",
+      "filePath": "song5.mp3",
+      "coverPath": "image.jpg",
+      "duration": "3:24"
+    },
+    {
+      "songName": "Man Meri Jaan",
+      "filePath": "song6.mp3",
+      "coverPath": "image.jpg",
+      "duration": "3:14"
+    }
+  ]
+}
