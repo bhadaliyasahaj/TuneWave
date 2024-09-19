@@ -22,7 +22,7 @@
 
 ## 🚀 How to Run the Project
 <ol>
-  <li>Clone the repository: <code>git clone https://github.com/yourusername/tunewave.git</code></li>
+  <li>Clone the repository: <code>git clone git@github.com:bhadaliyasahaj/TuneWave.git</code></li>
   <li>Navigate to the project directory: <code>cd tunewave</code></li>
   <li>Open the <code>index.html</code> file in your browser.</li>
 </ol>
